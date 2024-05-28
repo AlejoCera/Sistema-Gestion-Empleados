@@ -1,0 +1,19 @@
+Pasos para instalar la base de datos (realizarlos desde MySQL Workbench; en caso de utilizar otra herramienta 
+gestora de bases de datos, asegúrese de que sea compatible con SQL y tenga en cuenta las variantes de sintaxis 
+entre herramientas de gestión):
+
+1. Abrir y ejecutar todo el script "CREATE_GESTION_EMPLEADOS" para crear la estructura de la base de datos.
+
+2. Opcionalmente, abrir y ejecutar el script "INSERT_GESTION_EMPLEADOS" para insertar datos de muestra en 
+la base de datos (este paso es necesario solo si requiere datos de muestra para probar la base de datos).
+
+3. 
+a) Abrir el script "CONSULTAS".
+b) Ejecutar su primera línea ("USE gestionempleados;").
+
+Ahora puede ejecutar todas las consultas que desee desde este script o crear nuevas en el mismo. Recuerde que 
+siempre que el gestor de bases de datos le solicite seleccionar una base de datos, debe repetir el paso b).
+
+4) En caso de no utilizar MySQL Workbench asegúrese de revisar cualquier mensaje de error durante la ejecución
+de los scripts, ya que pueden indicar posibles problemas de compatibilidad con la herramienta gestora de bases 
+de datos utilizada.
